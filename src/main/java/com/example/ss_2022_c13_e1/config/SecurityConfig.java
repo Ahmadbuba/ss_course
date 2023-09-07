@@ -48,7 +48,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 public class SecurityConfig {
 
     // http://localhost:8080/oauth2/authorize?response_type=code&client_id=client&scope=openid&redirect_uri=https://springone.io/authorized&code_challenge=IyvUEH54eUssNjt8W2IlWSDtJONqBd6DI8lpj_SGC0U&code_challenge_method=S256
-    // http://localhost:8080/oauth2/token?client_id=client&redirect_uri=https://springone.io/authorized&grant_type=authorization_code&code=Hya6owAa4u_WZuOz91HbAVTNHUIxCqAJVX6gz8Kj2IhM-2x4VuTnsF1EzemMQegK-GoD83i_tlsIYcSjQGMDYUFQNThyAEXAD9HsZchCP_Wwpjj6u62VrK68PpSJvq6W&code_verifier=323de938eba931d3c36052c56f59426f3558156e912d0abb7a26a038
+    // http://localhost:8080/oauth2/token?client_id=client&redirect_uri=https://springone.io/authorized&grant_type=authorization_code&code=p4YC28khzIGjTK-uE97iyME6XOQkM4h_Z_KCHECce1JGDXQ9XAA2Oj8nuJf0zdwueIkp3Y79KWJlun0G1PaVTv5li-BktL_E_v76425KAoyw7zRRO6byqU5_UB17NlJ6&code_verifier=323de938eba931d3c36052c56f59426f3558156e912d0abb7a26a038
     @Bean
     @Order(1)
     public SecurityFilterChain authorizationServerSecurityFilterChain(HttpSecurity http) throws Exception {
